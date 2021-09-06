@@ -1,21 +1,44 @@
-### zookeeper
+## zookeeper
 
-### kafka
+## kafka
 
-kafka怎么保证消息不丢失的
+### 简介
 
-### hadoop
+kafka是最初由Linkedin公司开发，是一个分布式、分区的、多副本的、多订阅者，基于zookeeper协调的分布式日志系统。
 
-### hive
+### 特性
 
-### hbase
+- 高吞吐量、低延迟：kafka每秒可以处理几十万条消息，它的延迟最低只有几毫秒
+- 可扩展性：kafka集群支持热扩展
+- 持久性、可靠性：消息被持久化到本地磁盘，并且支持数据备份防止数据丢失
+- 容错性：允许集群中节点失败
+- 高并发：支持数千个客户端同时读写
 
-### spark
+### 使用场景
 
-### flink
+- 日志收集：收集各种服务的日志。
+- 消息系统：解耦和生产者和消费者、缓存消息等。
 
-### elasticsearch
+### 部署
 
-### flume
+### 基本术语
 
-### redis
+### 使用
+
+### API
+
+## hadoop
+
+## hive
+
+## hbase
+
+## spark
+
+## flink
+
+## elasticsearch
+
+## flume
+
+## redis
